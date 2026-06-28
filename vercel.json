@@ -1,0 +1,16 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "nodeVersion": "20.x",
+  "env": [
+    "NEXT_PUBLIC_PHONE_NUMBER",
+    "NEXT_PUBLIC_BUSINESS_NAME",
+    "NEXT_PUBLIC_BUSINESS_EMAIL",
+    "NEXT_PUBLIC_BUSINESS_ADDRESS",
+    "NEXT_PUBLIC_LATITUDE",
+    "NEXT_PUBLIC_LONGITUDE",
+    "NEXT_PUBLIC_SERVICE_AREA"
+  ]
+}

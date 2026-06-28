@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #ffffff;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Utility Classes */
+.container-custom {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.btn-primary {
+  @apply inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300 shadow-lg hover:shadow-xl;
+}
+
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+.btn-secondary {
+  @apply inline-block bg-white text-blue-600 font-bold py-3 px-6 rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition duration-300;
+}
+
+.btn-outline {
+  @apply inline-block bg-transparent text-blue-600 font-bold py-3 px-6 rounded-lg border-2 border-blue-600 hover:bg-blue-50 transition duration-300;
+}
+
+.btn-call {
+  @apply inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-700 transition duration-300 shadow-lg;
+}
+
+.section-padding {
+  @apply py-16 md:py-24;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent;
+}
+
+/* Animations */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-up {
+  animation: slideInUp 0.6s ease-out;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+/* Mobile Sticky Button */
+.mobile-sticky-button {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 40;
+}
+
+@media (min-width: 768px) {
+  .mobile-sticky-button {
+    display: none;
+  }
+}
+
+/* Form Styles */
+input,
+textarea,
+select {
+  @apply w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition;
+}
+
+input::placeholder,
+textarea::placeholder {
+  @apply text-gray-500;
+}
+
+/* Before/After Effect */
+.before-after-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.before-after-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Print Styles */
+@media print {
+  .no-print {
+    display: none;
+  }
+}

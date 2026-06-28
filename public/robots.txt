@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /admin/
+Disallow: /.env*
+
+# Crawl delay for bots (in seconds)
+Crawl-delay: 1
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://kendallklean.com/sitemap.xml
