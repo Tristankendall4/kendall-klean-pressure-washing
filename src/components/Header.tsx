@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import Image from 'next/image';
 
 interface HeaderProps {
   phoneNumber: string;
@@ -17,8 +18,14 @@ export default function Header({ phoneNumber, businessName }: HeaderProps) {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 md:w-12 md:h-12 bg-blue-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">KK</span>
+            <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden flex-shrink-0">
+              <Image
+                src="/images/logos/logo.jpeg"
+                alt="Kendall Klean Logo"
+                width={48}
+                height={48}
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="hidden md:block">
               <h1 className="font-bold text-lg text-gray-900">Kendall Klean</h1>

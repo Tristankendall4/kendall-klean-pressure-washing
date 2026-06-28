@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <style>
+      .kk-bg { fill: #2563eb; }
+      .kk-text { fill: white; font-family: Arial, sans-serif; font-size: 90px; font-weight: bold; text-anchor: middle; }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect class="kk-bg" width="192" height="192" rx="30"/>
+  <!-- K K Text -->
+  <text x="96" y="135" class="kk-text">KK</text>
+</svg>

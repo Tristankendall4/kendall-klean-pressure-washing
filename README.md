@@ -48,6 +48,40 @@ This is a production-ready Next.js website designed to maximize:
 - ✅ Image optimization
 - ✅ Fast load times (<2 seconds target)
 - ✅ Mobile-first design (80% mobile traffic)
+
+## What's Included vs. What You Need to Add
+
+### ✅ Already Included
+- **Complete site structure** - 15 pages, all routing configured
+- **Brand colors** - Blue (#2563eb) theme throughout (Tailwind colors applied)
+- **Favicon** - KK logo icon (SVG) added
+- **All components** - Forms, galleries, CTAs, navigation
+- **SEO setup** - Metadata, schema markup, sitemap
+- **Responsive design** - Mobile-first, optimized for all devices
+- **Production build** - Ready to deploy to Vercel
+
+### ⏳ You Need to Add (Important)
+- **Real images from your existing site** - Replace Unsplash placeholders with actual before/after photos
+  - Gallery images: `public/images/gallery/`
+  - Hero background images: `public/images/hero/`
+  - See [IMAGE_GUIDE.md](IMAGE_GUIDE.md) for step-by-step instructions
+- **Your business information** in `.env.local`:
+  - Real phone number (currently +1-309-555-0100)
+  - Real email (currently info@kendallklean.com)
+  - Real address
+  - Google Analytics ID (when created)
+- **Custom domain setup** - Configure kendallklean.com on Vercel
+- **Google services setup** - Search Console, Business Profile verification
+
+## Current Status
+
+- ✅ Build: **Production-ready** (npm run build succeeds)
+- ✅ TypeScript: **No errors**
+- ✅ Styling: **Colors fully applied via Tailwind CSS**
+- ✅ Favicon: **Added** (KK logo shows in browser tabs)
+- ⏳ Images: **Placeholder images** - replace with real before/after photos
+- ⏳ Domain: **Not yet configured** - kendallklean.com needs DNS setup
+- ⏳ Analytics: **Not yet configured** - GA ID needed
 - ✅ Vercel deployment optimizations
 
 ## Project Structure

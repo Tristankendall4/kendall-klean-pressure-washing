@@ -12,39 +12,33 @@ interface GalleryItem {
 const galleryItems: GalleryItem[] = [
   {
     id: '1',
-    title: 'House Washing - Transformation',
-    service: 'House Washing',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop',
+    title: 'Driveway Cleaning - Before & After',
+    service: 'Driveway Cleaning',
+    image: '/images/gallery/Before&AfterDriveWay.jpeg',
   },
   {
     id: '2',
-    title: 'Driveway Cleaning',
+    title: 'Driveway Transformation - Second Project',
     service: 'Driveway Cleaning',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop',
+    image: '/images/gallery/Before&AfterDriveWay2.jpeg',
   },
   {
     id: '3',
-    title: 'Roof Soft Wash',
-    service: 'Roof Cleaning',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop',
+    title: 'Patio Restoration - Fresh Look',
+    service: 'Driveway Cleaning',
+    image: '/images/gallery/Before&AfterPatio.jpeg',
   },
   {
     id: '4',
-    title: 'Deck Restoration',
-    service: 'Deck Cleaning',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop',
+    title: 'Patio Cleaning - Complete Transformation',
+    service: 'Driveway Cleaning',
+    image: '/images/gallery/Before&AfterPatio2.jpeg',
   },
   {
     id: '5',
-    title: 'Gutter Cleaning',
-    service: 'Gutter Cleaning',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop',
-  },
-  {
-    id: '6',
-    title: 'Commercial Storefront',
-    service: 'Commercial',
-    image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop',
+    title: 'House Siding - Beautiful Results',
+    service: 'House Washing',
+    image: '/images/gallery/Before&AfterSidingHouse.jpeg',
   },
 ];
 
